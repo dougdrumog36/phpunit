@@ -1,0 +1,23 @@
+{
+    "name": "evers/php_unit",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\PhpUnit\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "test\\":"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aaron e Daniel",
+            "email": "aaron.estevam@etec.sp.gov.br"
+        }
+    ],
+    "phpunit/php-code-coverage": "^4.0.3",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
